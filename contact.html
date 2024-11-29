@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <title>EP4 - Jardinería</title>
+  </head>
+  <body>
+    <!-- Cabecera -->
+    <header id="head">
+      <!-- Datos de contacto y redes -->
+      <div class="contenido-header">
+        <div class="datos-header">
+          <p>+51 987654321</p>
+          <p>email@email.com</p>
+          <p>Avenida Peru 123 - Lima</p>
+        </div>
+        <!-- Div redes sociales -->
+        <div class="redes">
+          <p>Síguenos</p>
+        </div>
+      </div>
+    </header>
+    <!-- Navegación -->
+    <nav id="navegacion">
+      <!-- Logo -->
+      <div class="div-logo">
+        <a href="index.html">
+          <img src="images/logo.svg" alt="Logo" />
+        </a>
+      </div>
+      <ul class="enlaces-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about_us.html">Sobre nosotros</a></li>
+        <li><a href="services.html">Servicios</a></li>
+        <li><a href="projects.html">Proyectos</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+        <li><a href="pages.html">Páginas</a></li>
+      </ul>
+      <button class="boton-nav">Get a Quote</button>
+    </nav>
+
+    <!-- Titulo y banner de contacto -->
+    <section id="banner-contacto" class="contenedor">
+      <div class="contenido">
+        <h2>Contáctanos</h1>
+        <a href="index.html">
+            <i class="fa-solid fa-location-dot"></i>
+          Home
+        </a>
+      </div>
+    </section>
+
+    <section id="form-contacto" class="contenedor">
+        <div class="contenido">
+            <span class="about-us-span">Sientete Libre</span>
+            <h2>Ponte en contacto</h2>
+            <div class="dos-col">
+                <div class="contenedor-info">
+                    <div class="info">
+                        <div>
+                            <div class="icono">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <h3>Ubicación</h3>
+                        </div>
+                        <p>Tupac Amaru - 200 - Comas</p>
+                        <p>Lima - Perú</p>
+                    </div>
+                    <div class="info">
+                        <div>
+                            <div class="icono">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <h3>Teléfonos</h3>
+                        </div>
+                        <p>Oficina: 51 557-4656</p>
+                        <p>Celular: 51 987 654 321</p>
+                    </div>
+                    <div class="info">
+                        <div>
+                            <div class="icono">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <h3>Emails</h3>
+                        </div>
+                        <p>info@localhost.xyz</p>
+                        <p>Services@localhost.xyz</p>
+                    </div>
+                </div>
+                <form action="" class="formulario col">
+                    <div class="col col-50">
+                        <input class="input-style" type="text" placeholder="Nombre" required>
+                    </div>
+                    <div class="col col-50">
+                        <input class="input-style" type="text" placeholder="Apellido" required>
+                    </div>
+                    <div class="col col-50">
+                        <input class="input-style" type="email" placeholder="Correo electrónico" required>
+                    </div>
+                    <div class="col col-50">
+                        <input class="input-style" type="tel" placeholder="Teléfono" required>
+                    </div>
+                    <div class="col col-100">
+                        <textarea class="input-style" rows="5" placeholder="Mensaje" required></textarea>
+                    </div>
+                    <div class="col col-100">
+                        <input class="input-style" type="text" placeholder="Captcha" required>
+                    </div>
+                    <div class="col col-100 checkbox">
+                        <input type="checkbox" required id="acuerdo" >
+                        <label for="acuerdo"> He leído y acepto los terminos y condiciones</label> 
+                    </div>
+
+                    <!-- Boton de submit  -->
+                    <div class="col col-100">
+                        <button class="boton-submit" type="submit">Enviar mensaje</button>
+                    </div>  
+                    
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion redes -->
+
+    <section id="redes-contacto" class="">
+      <div class="contenido redes-contacto">
+          <a target="_blank" href="https://facebook.com">
+            <i class="fa-brands fa-facebook"></i>
+          </a>      
+          <a target="_blank" href="https://instagram.com">
+            <i class="fa-brands fa-instagram"></i>
+          </a>     
+          <a target="_blank" href="https://x.com">
+            <i class="fa-brands fa-square-x-twitter"></i>
+          </a>      
+          <a target="_blank" href="https://youtube.com">
+            <i class="fa-brands fa-youtube"></i>
+          </a>      
+      </div>
+    </section>
+
+
+    <!-- Seccion mapa -->
+    <section class="mapa">
+      <iframe class="ajuste-mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1950.4302260128309!2d-77.03090559557958!3d-12.121699117589277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c81e30b6695f%3A0x1015ccad533f5be5!2sParque%20Kennedy!5e0!3m2!1ses-419!2spe!4v1732836973828!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!-- Botón para ir al inicio de la página -->
+    <a href="#" class="scroll-up">
+      <i class="fa-solid fa-angle-up"></i>
+    </a>
+
+    <footer id="pie">
+      <div class="contenedor">
+        <p>&copy; 2024 ISIL - Todos los derechos reservados</p>
+      </div>
+    </footer>
+  </body>
+</html>
